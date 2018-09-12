@@ -31,11 +31,11 @@ body footer {
 }
 
 address {
-    font: normal;
+    font-style: normal;
     font-size: 0.9em;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
 
 /* Heading Styles */
@@ -100,7 +100,15 @@ aside#tour_itinerary h2:nth-of-type(odd) {
     color: rgb(79, 91, 40);
 }
 
+aside#tour_itinerary p:nth-of-type(odd) {
+    color: rgb(79, 91, 40);
+}
+
 aside#tour_itinerary h2:nth-of-type(even) {
+    color: rgb(81, 95, 175);
+}
+
+aside#tour_itinerary p:nth-of-type(even) {
     color: rgb(81, 95, 175);
 }
 
@@ -113,6 +121,8 @@ blockquote {
 }
 
 blockquote p {
-    padding: 2.5px 0px 2.5px 0px;
-    padding: 10px 0px 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
