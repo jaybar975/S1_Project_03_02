@@ -1,4 +1,6 @@
 ﻿@charset "utf-8";
+/* This can also contain any unicode characters */
+
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
@@ -15,22 +17,25 @@
 
 /* Structural Styles */
 /* The HTML element brngs the color of the background of the website */
+/* This adds the background color to the html element */
 html {
     background-color: rgb(173, 189, 227);
 }
 
+/* This adds the background color and font family to the body element */
 body {
     background-color: rgb(227, 210, 173);
     font-family: 'Century Gothic', sans-serif;
 }
 
+/* This adds the background color and padding to the body and footer element */
 body footer {
     background-color: rgb(208, 184, 109);
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-/*  */
+/* This adds the font style, font size, text align, and padding to the address element */
 address {
     font-style: normal;
     font-size: 0.9em;
@@ -40,51 +45,56 @@ address {
 }
 
 /* Heading Styles */
-
+/* This adds font weight to the h1 element */
 h1 {
     font-weight: normal;
 }
 
+/* This adds the font weight to the h2 element */
 h2 {
     font-weight: normal;
 }
 
 /* Navigation Styles */
-
+/* This adds the list style, line height, and font size to the navigation bar */
 nav>ul {
     list-style: none;
     line-height: 2em;
     font-size: 0.9em;
 }
 
+/* This adds the text decoration and the color when you see the navigation bar */
 nav a:visited,
 nav a:link {
     text-decoration: none;
     color: rgb(43, 59, 125);
 }
 
+/* This adds the color when you hover over the navigation bar */
 nav a:hover,
 nav a:active {
     color: rgb(212, 35, 35);
 }
 
 /* Article Styles */
-
+/* This sets the font size and letter spacing to the article and h1 element */
 article#tour_summary h1 {
     font-size: 2.2em;
     letter-spacing: 0.2em;
 }
 
+/* This sets the font size to the article and paragraph element */
 article#tour_summary p {
     font-size: 1.1em;
 }
 
+/* This adds the font size to the artcile with the id tour_summary and the paragraph with the id of first letter */
 article#tour_summary p::first-letter {
     font-size: 1.2em;
 }
 
 /* Aside Styles */
-
+/* This adds the font size to the aside with the id of tour_itinerary and the h1 element */
 aside#tour_itinerary h1 {
     font-size: 1.2em;
 }
@@ -122,13 +132,8 @@ blockquote {
 }
 
 blockquote p {
-<<<<<<< Updated upstream
-    padding-top: 10px;
-    padding-bottom: 10px;
-=======
     padding-top: 2.5px;
     padding-bottom: 2.5px;
->>>>>>> Stashed changes
     padding-left: 10px;
     padding-right: 10px;
 }
