@@ -14,7 +14,7 @@
 
 
 /* Structural Styles */
-
+/* The HTML element brngs the color of the background of the website */
 html {
     background-color: rgb(173, 189, 227);
 }
@@ -30,6 +30,7 @@ body footer {
     padding-bottom: 5px;
 }
 
+/*  */
 address {
     font-style: normal;
     font-size: 0.9em;
@@ -116,13 +117,18 @@ aside#tour_itinerary p:nth-of-type(even) {
 
 blockquote {
     background-color: rgb(173, 189, 227);
-    color: rgb(225, 225, 225);
+    color: rgb(255, 255, 255);
     opacity: 0.65;
 }
 
 blockquote p {
+<<<<<<< Updated upstream
     padding-top: 10px;
     padding-bottom: 10px;
+=======
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+>>>>>>> Stashed changes
     padding-left: 10px;
     padding-right: 10px;
 }
